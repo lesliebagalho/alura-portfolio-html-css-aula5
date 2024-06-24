@@ -14,29 +14,29 @@ strong{
     color: #22D4FD;
 }
 
-.main{
+.apresentacao{
     width: 700px;
     margin: 150px auto 0 auto;
     display: flex;
 }
 
-.left{
+.apresentacao__conteudo{
     padding: 1.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
 
-    h1{
+    .apresentacao__conteudo__titulo{
         line-height: 2.5rem;
     }
 
-    .btn-social{
+    .apresentacao__links{
         display: flex;
         flex-direction: row;
         gap: 1.5rem;
 
-        .btn-social-link{
+        .apresentacao__links__link{
             width: 50%;
             height: 43px;
             background-color: #22D4FD;
@@ -51,7 +51,7 @@ strong{
     }
 }
 
-.right{
+.apresentacao{
     display: flex;
     justify-content: center;
     align-items: center;
